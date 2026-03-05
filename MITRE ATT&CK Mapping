@@ -1,0 +1,8 @@
+| Technique                      | ID        | Description           |
+| ------------------------------ | --------- | --------------------- |
+| Phishing                       | T1566     | Initial access        |
+| PowerShell                     | T1059.001 | Command execution     |
+| Credential Dumping             | T1003     | Dumping LSASS         |
+| Remote Services                | T1021     | Lateral movement      |
+| Exfiltration Over Web Services | T1567     | Data theft            |
+| Data Encrypted for Impact      | T1486     | Ransomware encryption |
