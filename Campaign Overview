@@ -1,0 +1,46 @@
+# LockBit Ransomware Campaign Overview
+
+## Ransomware Family
+
+LockBit 3.0
+
+## Type
+
+Ransomware-as-a-Service (RaaS)
+
+## First Observed
+
+2019
+
+## Target Industries
+
+* Healthcare
+* Finance
+* Government
+* Manufacturing
+* Technology
+
+## Initial Access Methods
+
+* Phishing emails
+* Exploited vulnerabilities
+* Compromised VPN accounts
+* RDP brute force attacks
+
+## Key Characteristics
+
+* Fast encryption speed
+* Double extortion (data theft + encryption)
+* Automated lateral movement
+* Data exfiltration before encryption
+
+## Encryption Methods
+
+LockBit typically uses:
+
+* AES encryption
+* RSA encryption
+
+Encrypted files often include the extension:
+
+.lockbit
