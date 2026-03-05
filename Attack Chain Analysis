@@ -1,0 +1,63 @@
+# LockBit Attack Chain Analysis
+
+## Stage 1 – Initial Access
+
+Attackers gain access through:
+
+* Phishing emails
+* Stolen credentials
+* Exploited vulnerabilities
+
+Example:
+Compromised VPN credentials.
+
+## Stage 2 – Execution
+
+Attackers execute malicious scripts using:
+
+PowerShell
+Command Prompt
+Batch scripts
+
+Example command:
+
+powershell.exe -ExecutionPolicy Bypass
+
+## Stage 3 – Persistence
+
+Attackers create persistence mechanisms:
+
+* Scheduled tasks
+* Registry run keys
+* Service installation
+
+## Stage 4 – Privilege Escalation
+
+Attackers attempt to obtain admin privileges using:
+
+* Credential dumping
+* Exploiting system vulnerabilities
+
+## Stage 5 – Lateral Movement
+
+Techniques include:
+
+* SMB
+* Remote Desktop Protocol
+* PsExec
+
+## Stage 6 – Data Exfiltration
+
+Sensitive data is stolen before encryption using tools like:
+
+* Rclone
+* FTP
+* Custom exfiltration tools
+
+## Stage 7 – Impact
+
+Files are encrypted and a ransom note is dropped.
+
+Typical ransom note:
+
+Restore-My-Files.txt
