@@ -1,0 +1,14 @@
+title: Suspicious Shadow Copy Deletion
+logsource:
+  product: windows
+  service: security
+
+detection:
+  selection:
+    CommandLine|contains:
+      - "vssadmin delete shadows"
+      - "wmic shadowcopy delete"
+
+condition: selection
+
+level: high
