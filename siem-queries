@@ -1,0 +1,9 @@
+Suspicious Shadow Copy Deletion
+Splunk Query:
+index=windows EventCode=4688
+CommandLine="*vssadmin delete shadows*"
+
+Suspicious PowerShell Download
+Splunk Query:
+index=windows EventCode=4688
+CommandLine="*Invoke-WebRequest*"
